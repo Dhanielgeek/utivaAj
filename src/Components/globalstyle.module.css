@@ -1,0 +1,19 @@
+.button{
+    background-color: #FBAF1B;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+}
+.button.primary{
+    background-color: white;
+    color: black;
+}
+.button.true{
+    border: 1px solid lightblue;
+}
+.button.false{
+    border: 0px solid black;
+}
