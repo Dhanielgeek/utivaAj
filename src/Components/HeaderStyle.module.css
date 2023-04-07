@@ -1,0 +1,98 @@
+.navBar{
+    /* border : 1px solid black; */
+    height: 50px;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hold_navigation{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blue; */
+}
+.logo{
+    width: 100px;
+    height: 100%;
+    /* background-color: red; */
+    font-size: 40px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #050794;
+}
+.navlinks{
+display: flex;
+/* background-color: pink; */
+height: 100%;
+align-items: center;
+width: 300px;
+justify-content: space-around;
+}
+
+@media screen and (max-width: 800px) {
+    .navlinks{
+        display: none;
+    }
+}
+
+.firstIconHold{
+    height: 100%;
+    width: 50px;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+@media screen  and (max-width:800px) {
+    .firstIconHold{
+        display: flex;
+    }
+    
+}
+@media screen  and (max-width:600px){
+    .firstIconHold{
+        display: none;
+    }
+}
+.iconholder{
+    height: 100%;
+    width: 50px;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+@media screen  and (max-width: 600px){
+    .iconholder{
+        display: flex;
+        color: #050794;
+    }
+}
+
+.nav_link{
+    font-size: 20px;
+}
+.mybtn{
+    width: 210px;
+    height: 100%;
+    /* background-color: yellow; */
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width:800px) {
+    .mybtn{
+        display: flex;
+    }
+}
+@media screen and (max-width: 600px) {
+    .mybtn{
+        display: none;
+    }
+}
